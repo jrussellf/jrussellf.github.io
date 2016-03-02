@@ -1,0 +1,36 @@
+body {
+	background: url("bananabreadcover.jpg");
+	background-size: cover;
+	color: #ffffff;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+.top {
+	text-transform: uppercase;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+#construction {
+	background-color: gold;
+	color: #4d0000;
+}
+
+h1 {
+	font-size: 150px;
+}
+
+hr {
+	width: 460px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a  {
+	color: gold;
+}
