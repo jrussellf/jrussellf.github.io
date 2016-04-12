@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
+
+body {
+	background: url("bananabreadcover.jpg");
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+}
+
+#twoguys {
+	font-family: 'Amatic SC', cursive;
+	font-size: 110px;
+	line-height: 0px;
+}
+
+#andabakery {
+	font-family: 'Cookie', cursive;
+	font-size: 34px;
+	line-height: 0px;
+}
+
+#slogan {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	color: gold;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 5em;
+	letter-spacing: 1px;
+}
+
+#construction {
+	background-color: gold;
+	color: #4d0000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+#contact {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    padding-top: 1%;
+    letter-spacing: 1px;
+}
+
+.cta {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    padding-top: 1%;
+}
+
+hr {
+	width: 40%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a  {
+	color: gold;
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+.wrapper {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+#logo,#main {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+.cta {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 1%;
+}
+
+#left1 {
+	background-color: violet;
+    border: 1px black solid;
+    padding: 1%;
+    float: left;
+    width: 40%;
+}
+
+#right1 {
+	background-color: pink;
+    border: 1px black solid;
+    padding: 1%;
+    float: right;   
+    width: 52%;
+}
+
+#left2 {
+	background-color: violet;
+    border: 1px black solid;
+    padding: 1%;
+    float: left;
+    width: 30%;
+}
+
+#right2 {
+	background-color: pink;
+    border: 1px black solid;
+    padding: 1%;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media screen only and (max-width: 1121px) {
+  #left1 { 
+        float: none; 
+        width: auto; 
+    }
+
+    #right1 { 
+        float: none; 
+        width: auto;
+    }
+
+    #left2 { 
+        float: none; 
+        width: auto; 
+    }
+
+    #left2 { 
+        float: none; 
+        width: auto; 
+    }
+}
