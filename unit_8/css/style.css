@@ -4,6 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 
 body {
+<<<<<<< HEAD
     background: url("bananabreadcover.jpg");
     background-size: cover;
     color: #ffffff;
@@ -31,6 +32,35 @@ body {
     font-weight: 400;
     line-height: 5em;
     letter-spacing: 1px;
+=======
+	background: url("bananabreadcover.jpg");
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+}
+
+#twoguys {
+	font-family: 'Amatic SC', cursive;
+	font-size: 6.5em;
+	line-height: 0px;
+}
+
+#andabakery {
+	font-family: 'Cookie', cursive;
+	font-size: 2em;
+	line-height: 0px;
+}
+
+#slogan {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	color: gold;
+	font-size: 1.25em;
+	font-weight: 400;
+	line-height: 5em;
+	letter-spacing: 1px;
+>>>>>>> origin/master
 }
 
 #construction {
@@ -174,6 +204,10 @@ footer {
 
 @media only screen and (max-width: 510px) {
   body {
+<<<<<<< HEAD
     font-size: 13px;
+=======
+	font-size: 13px;
+>>>>>>> origin/master
     }
 }
